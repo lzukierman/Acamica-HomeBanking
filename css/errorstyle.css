@@ -1,0 +1,66 @@
+body  {
+
+    background-color:rgba(10, 2, 1, 0.877);
+
+}
+
+h1 {
+    color: rgba(253, 33, 224, 0.658);
+    font-size: 250%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: fantasy;
+    border-bottom: 30px solid rgba(160, 243, 6, 0.658);
+    padding-top: 2%;
+
+}
+
+
+
+a {
+    color: rgba(146, 8, 238, 0.836);
+    font-size: 200%;
+    font-family: fantasy;
+    border-top: 3px dashed  rgba(253, 33, 224, 0.658);
+    border-bottom: 3px dashed rgba(253, 33, 224, 0.658);
+    border-right: 3px dashed rgba(253, 33, 224, 0.658);
+    border-left: 3px dashed rgba(253, 33, 224, 0.658);
+
+}
+.imagenes{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color:rgba(250, 247, 252, 0.836);
+    padding-bottom: 100px;
+    border: solid 20px rgba(146, 8, 238, 0.836);
+
+}
+
+h2{
+    font-size: 250%;
+    font-family: monospace;
+    color: rgba(34, 14, 146, 0.836);
+    text-align:center;
+}
+.llamar{
+    position: relative;
+    display: table;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    background-color: rgba(253, 33, 224, 0.658);
+    border: solid rgb(31, 4, 4)
+    
+    
+
+
+}
+.llamar:hover {
+    margin-left: 25px;
+
+    color: rgba(160, 243, 6, 0.658);
+}
